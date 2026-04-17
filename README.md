@@ -10,14 +10,16 @@ In representation learning fields such as multi-view clustering, researchers ten
 | Cora | 2708 | 2 | 7 |[Cora](#Cora) |
 | Movies | 617 | 2 | 17 | [Movies](#Movies) |
 |Hdigit| 10000 | 2 | 10 | [Hdigit](#Hdigit) |
-|CIFAR-10| 50000|3|10|[CIFAR-10]|
+|CIFAR-10| 50000|3|10|[CIFAR-10](#CIFAR-10 )|
+
+
 <a name="my-anchor"></a> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)
 
 ### BDGP
 Berkeley Drosophila Genome Project (BDGP): dataset consists of two views: image and text. Common references: Cai, Xiao, et al. "Joint stage recognition and anatomical annotation of drosophila gene expression patterns." Bioinformatics 28.12 (2012): i16-i24. Datasets: [Drive_link](#my-anchor)
 
 ### BBCSport
-The dataset comprises 544 sports news articles collected from the BBC Sport website, covering five categories: Athletics, Cricket, Football, Rugby, and Tennis. To construct the multi-view data, each document was randomly
+The dataset comprises 544 sports news articles collected from the BBC Sport website, covering five categories: Athletics, Cricket, Football, Rugby, and Tennis. To construct the multi-view data, each document was randomly
 partitioned into two segments, and a term frequency matrix was generated for each segment to serve as a distinct view. 
 
 ### NGs
@@ -26,7 +28,7 @@ Science, Politics, and Religion. Three separate views were constructed using ter
 stop-word filtering, respectively. Each view has a dimensionality of 2,000. 
 
 ### Cora
-The dataset consists of 2,708 samples sourced from an academic paper database, categorized into seven classes representing different subfields. Two views were constructed: a citation relationship view and a
+The dataset consists of 2,708 samples sourced from an academic paper database, categorized into seven classes representing different subfields. Two views were constructed: a citation relationship view and a
 content attribute view. The content attribute view is represented by a feature matrix with dimensions of [2,708, 1,433].
 
 ### Movies
