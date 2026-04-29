@@ -20,8 +20,9 @@ In representation learning fields such as multi-view clustering, researchers ten
 |synthetic3d|600|3|3|[synthetic3d](#synthetic3d)|
 
 
-<img src="./img/megaphone.png" alt="icon" width="20" />
-<b>My Project</b>
+<img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
+Caltech101-7, Reuters_dim10, Scene_15
+
 
 
 <a name="my-anchor"></a> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)
