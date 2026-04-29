@@ -24,9 +24,12 @@ In representation learning fields such as multi-view clustering, researchers ten
 </div>
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
-Caltech101-7, Reuters_dim10, Scene_15, prokaryotic, proteinFold, WebKB 
+<div align = "center"> 
+ <b> Caltech101-7, Reuters_dim10, Scene_15, prokaryotic, proteinFold, WebKB, ACM, BBC4view, OutdoorScene, yale</b>
+</div>
 
 
+<br>
 
 <a name="my-anchor"></a> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)
 
