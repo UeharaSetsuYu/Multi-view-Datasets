@@ -21,7 +21,7 @@ In representation learning fields such as multi-view clustering, researchers ten
 
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
-Caltech101-7, Reuters_dim10, Scene_15
+Caltech101-7, Reuters_dim10, Scene_15, prokaryotic, proteinFold, WebKB 
 
 
 
