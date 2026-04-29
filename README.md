@@ -3,6 +3,7 @@
 In representation learning fields such as multi-view clustering, researchers tend to focus more on algorithms within the feature space, predominantly utilizing public datasets. This offers considerable convenience, as obtaining public datasets is generally free from strict copyright restrictions, sparing us the arduous task of dataset construction. However, existing repositories fail to provide a comprehensive and unified public dataset library specifically dedicated to the field of multi-view representation learning. Therefore, I aim to systematically organize and compile the multi-view datasets I have collected throughout my research process.
 
 <div align="center">
+ 
 | Datasets Name | Sampel num | View_num | Classes_num | Link | 
 | :--- | :---: | :---: | :---: | :---: |
 | BDGP | 2500 | 2 | 5 | [BDGP](#BDGP)|
@@ -19,6 +20,7 @@ In representation learning fields such as multi-view clustering, researchers ten
 |Wiki_fea|2866|2|10|[Wiki_fea](#Wiki_fea)|
 |CUB|600|2|10|[CUB](#CUB)|
 |synthetic3d|600|3|3|[synthetic3d](#synthetic3d)|
+ 
 </div>
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
