@@ -15,7 +15,7 @@ In representation learning fields such as multi-view clustering, researchers ten
 |CCV | 6773 | 3 | 20 | [CCV](#CCV)|
 |CiteSeer| 3312 | 2| 6| [CiterSeer](#CiterSeer)|
 |LandUse_21|2100|3|21|[LandUse_21](#LandUse_21)|
-|Wiki_fea|2866|2|10|[Wiki_fea(#Wiki_fea)]
+|Wiki_fea|2866|2|10|Wiki_fea(#Wiki_fea)|
 |CUB|600|2|10|[CUB](#CUB)|
 |synthetic3d|600|3|3|[synthetic3d](synthetic3d)|
 
