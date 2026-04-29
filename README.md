@@ -14,7 +14,7 @@ In representation learning fields such as multi-view clustering, researchers ten
 |100Leaves| 1600|3|16|[100Leaves](#100Leaves)|
 |CCV | 6773 | 3 | 20 | [CCV](#CCV)|
 |CiteSeer| 3312 | 2| 6| [CiterSeer](#CiterSeer)|
-|LandUse_21|2100|3|21|[LandUse_21](#LandUse21)|
+|LandUse_21|2100|3|21|[LandUse_21](#LandUse_21)|
 
 <a name="my-anchor"></a> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)
 
@@ -65,7 +65,7 @@ It comprises content features and structural features (represented by the adjace
 
 
 ### LandUse_21
-Refer to the paper [1] and the corresponding open-source repository [ ].
+Refer to the paper [DCP](###DCP) and the corresponding open-source repository [2022-TPAMI-DCP](https://github.com/XLearning-SCU/2022-TPAMI-DCP).
 
 
 
