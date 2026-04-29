@@ -5,7 +5,7 @@ In representation learning fields such as multi-view clustering, researchers ten
 | Datasets Name | Sampel num | View_num | Classes_num | Link | 
 | :--- | :---: | :---: | :---: | :---: |
 | BDGP | 2500 | 2 | 5 | [BDGP](#BDGP)|
-| BBCSport | 544 | 5 | 2 | [BBCSport](#BBCsport)|
+| BBCSport | 544 | 2 | 5 | [BBCSport](#BBCsport)|
 | NGs | 500 | 3 | 5 |[NGs](#NGs) |
 | Cora | 2708 | 2 | 7 |[Cora](#Cora) |
 | Movies | 617 | 2 | 17 | [Movies](#Movies) |
