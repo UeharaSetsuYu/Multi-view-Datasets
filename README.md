@@ -30,8 +30,11 @@ In representation learning fields such as multi-view clustering, researchers ten
 
 
 <br>
+ 
+<a name="my-anchor"></a> <img src="./img/cloud.png" alt="icon" width="20" /> <b> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)  </b>
 
-<a name="my-anchor"></a> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)
+
+
 
 ### BDGP
 Berkeley Drosophila Genome Project (BDGP): dataset consists of two views: image and text. Common references: Cai, Xiao, et al. "Joint stage recognition and anatomical annotation of drosophila gene expression patterns." Bioinformatics 28.12 (2012): i16-i24. Datasets: [Drive_link](#my-anchor)
