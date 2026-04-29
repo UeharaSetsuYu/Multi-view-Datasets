@@ -11,7 +11,7 @@ In representation learning fields such as multi-view clustering, researchers ten
 | Movies | 617 | 2 | 17 | [Movies](#Movies) |
 |Hdigit| 10000 | 2 | 10 | [Hdigit](#Hdigit) |
 |CIFAR-10| 50000|3|10|[CIFAR-10](#CIFAR-10 )|
-
+|100Leaves| 1600|3|16|[100Leaves](#100Leaves)|
 
 <a name="my-anchor"></a> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)
 
@@ -47,5 +47,8 @@ The dataset consists of 50,000 samples categorized into 10 classes. We construct
 features from different layers of a ResNet-50 backbone. View 1 (512 dimensions) captures low-level information such as
 textures and edges; View 2 (1,024 dimensions) encodes mid-level features representing object parts; and View 3 (2,048
 dimensions) encapsulates high-level global semantic features.
+
+### 100Leaves
+
 
 
