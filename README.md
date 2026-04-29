@@ -12,6 +12,9 @@ In representation learning fields such as multi-view clustering, researchers ten
 |Hdigit| 10000 | 2 | 10 | [Hdigit](#Hdigit) |
 |CIFAR-10| 50000|3|10|[CIFAR-10](#CIFAR-10 )|
 |100Leaves| 1600|3|16|[100Leaves](#100Leaves)|
+|CCV | 6773 | 3 | 20 | [CCV](#CCV)|
+|CiteSeer| 3312 | 2| 6| [CiterSeer](#CiterSeer)|
+|LandUse_21|2100|3|21|[LandUse_21](#LandUse21)|
 
 <a name="my-anchor"></a> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)
 
@@ -49,6 +52,35 @@ textures and edges; View 2 (1,024 dimensions) encodes mid-level features represe
 dimensions) encapsulates high-level global semantic features.
 
 ### 100Leaves
+Includes three views: shape features, texture features, and edge features.
+ 
+
+### CCV
+It incorporates Spatio-Temporal Interest Points (STIP), Scale-Invariant Feature Transform (SIFT), and Mel-Frequency Cepstral Coefficients (MFCC). Essentially, these represent multimodal data from video—comprising images, motions, and audio—characterized by significant view discrepancies and true heteromodality.
+
+
+
+### CiteSeer
+It comprises content features and structural features (represented by the adjacency matrix), both of which are embedded within a graph structure.
+
+
+### LandUse_21
+Refer to the paper [1] and the corresponding open-source repository [ ].
+
+
+
+## Reference
+### DCP 
+@article{lin2022dual,
+  title={Dual contrastive prediction for incomplete multi-view representation learning},
+  author={Lin, Yijie and Gou, Yuanbiao and Liu, Xiaotian and Bai, Jinfeng and Lv, Jiancheng and Peng, Xi},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={45},
+  number={4},
+  pages={4447--4461},
+  year={2022},
+  publisher={IEEE}
+}
 
 
 
