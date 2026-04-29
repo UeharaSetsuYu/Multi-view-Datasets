@@ -15,7 +15,9 @@ In representation learning fields such as multi-view clustering, researchers ten
 |CCV | 6773 | 3 | 20 | [CCV](#CCV)|
 |CiteSeer| 3312 | 2| 6| [CiterSeer](#CiterSeer)|
 |LandUse_21|2100|3|21|[LandUse_21](#LandUse_21)|
-
+|Wiki_fea|2866|2|10|[Wiki_fea(#Wiki_fea)]
+|CUB|600|2|10|[CUB](#CUB)|
+|synthetic3d|600|3|3|[synthetic3d](synthetic3d)|
 <a name="my-anchor"></a> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)
 
 ### BDGP
@@ -65,9 +67,17 @@ It comprises content features and structural features (represented by the adjace
 
 
 ### LandUse_21
-Refer to the paper [DCP](###DCP) and the corresponding open-source repository [2022-TPAMI-DCP](https://github.com/XLearning-SCU/2022-TPAMI-DCP).
+Refer to the paper [DCP](#DCP) and the corresponding open-source repository [2022-TPAMI-DCP](https://github.com/XLearning-SCU/2022-TPAMI-DCP).
 
 
+### Wiki_fea
+Cross-modal data, comprising both image and text features, presents significant challenges for alignment. 
+
+### CUB
+Avian features, comprising cross-modal data of both images and text.
+
+### synthetic3d
+Refer to the paper [DFL-NET](#DFL-NET) and the corresponding open-source repository [2025-TKDE-DFLNET](https://github.com/chenzhe207/DFL-NET).
 
 ## Reference
 ### DCP 
@@ -79,6 +89,14 @@ Refer to the paper [DCP](###DCP) and the corresponding open-source repository [2
   number={4},
   pages={4447--4461},
   year={2022},
+  publisher={IEEE}
+}
+### DFL-NET
+@article{chen2025dfl,
+  title={DFL-Net: Disentangled Feature Learning Network for Multi-View Clustering},
+  author={Chen, Zhe and Wu, Xiao-Jun and Xu, Tianyang and Kittler, Josef},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2025},
   publisher={IEEE}
 }
 
