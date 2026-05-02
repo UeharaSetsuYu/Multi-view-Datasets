@@ -23,14 +23,18 @@ In representation learning fields such as multi-view clustering, researchers ten
 |Caltech101-7|1474|6|7|[Caltech101-7](#Caltech101-7)|
 |Reuters_dim10|18758|5|6|[Reuters_dim10](#Reuters_dim10)|
 |Scene_15|4485|3|15|[Scene_15](#Scene_15)|
+|prokaryotic|551|3|4|[prokaryotic](#prokaryotic)|
+|proteinFold|694|12|27|[proteinFold](#proteinFold)|
+|WebKB|1051|2|2|[WebKB](#WebKB)|
+|ACM|3025|5|3|[ACM](#ACM)|
+|OutdoorScene|2688|4|8|[OutdoorScene](#OutdoorScene)|
 </div>
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
 <div align = "center"> 
- <b> prokaryotic, proteinFold, WebKB, ACM, BBC4view, OutdoorScene, yale</b>
- <b>Large Datasets: see [Drive](#my-anchor)</b>
-</div>
- 
+ <b>   ACM, BBC4view, OutdoorScene, yale</b>
+ <b>Large-scale datasets are available on the cloud drive. Update ALOI_1K, Animal, AwAfea, Caltech101-20, Caltech101-all, Caltech102, CIFAR10, CIFAR100, Fashion, MNIST_USPS, NUS_WIDE, nuswide_deep_2, NUSWIDEOBJ, ORL, STL10_fea</b> 
+</div> 
 <br>
  
 <a name="my-anchor"></a> <img src="./img/cloud.png" alt="icon" width="20" /> <b> Datasets with large file sizes can be found in the cloud drive: [MVC_datasets](https://drive.google.com/drive/folders/14TEYr4L82iKSKhTxt70End6ucGlhJTlS?usp=drive_link)  </b>
@@ -105,6 +109,14 @@ The dataset comprises five languages—English, French, German, Spanish, and Ita
  
 ### Scene_15
 Refer to [LandUse_15](#LandUse_15).
+
+### prokaryotic
+The dataset represents prokaryotic information and comprises three views: text data, proteome composition, and genomic representation. These correspond to features extracted via the Bag-of-Words (BoW) model, encoded features, and binary-encoded representations, respectively.
+ 
+### proteinFold
+
+
+### WebKB
 
 
 
