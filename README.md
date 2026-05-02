@@ -27,7 +27,7 @@ In representation learning fields such as multi-view clustering, researchers ten
 |proteinFold|694|12|27|[proteinFold](#proteinFold)|
 |WebKB|1051|2|2|[WebKB](#WebKB)|
 |ACM|3025|5|3|[ACM](#ACM)|
-|OutdoorScene|2688|4|8|[OutdoorScene](#OutdoorScene)|
+|OutdoorScene|2688|3|8|[OutdoorScene](#OutdoorScene)|
 </div>
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
@@ -114,10 +114,10 @@ Refer to [LandUse_15](#LandUse_15).
 The dataset represents prokaryotic information and comprises three views: text data, proteome composition, and genomic representation. These correspond to features extracted via the Bag-of-Words (BoW) model, encoded features, and binary-encoded representations, respectively.
  
 ### proteinFold
-
+Refer to the paper [MVC-LFA](#MVC-LFA)
 
 ### WebKB
-
+It primarily comprises two views: the sparse text of the webpage content and the inbound anchor text.
 
 
 ## Reference
@@ -152,4 +152,12 @@ The dataset represents prokaryotic information and comprises three views: text d
   publisher={Elsevier}
 }
 
+### MVC-LFA
+@inproceedings{wang2019multi,
+  title={Multi-view clustering via late fusion alignment maximization.},
+  author={Wang, Siwei and Liu, Xinwang and Zhu, En and Tang, Chang and Liu, Jiyuan and Hu, Jingtao and Xia, Jingyuan and Yin, Jianping},
+  booktitle={Ijcai},
+  pages={3778--3784},
+  year={2019}
+}
 
