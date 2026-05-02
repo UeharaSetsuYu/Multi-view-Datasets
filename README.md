@@ -20,12 +20,13 @@ In representation learning fields such as multi-view clustering, researchers ten
 |Wiki_fea|2866|2|10|[Wiki_fea](#Wiki_fea)|
 |CUB|600|2|10|[CUB](#CUB)|
 |synthetic3d|600|3|3|[synthetic3d](#synthetic3d)|
- 
+|Caltech101-7|1474|6|7|[Caltech101-7](#Caltech101-7)|
+|Reuters_dim10|18758|5|6|[Reuters_dim10](#Reuters_dim10)|
 </div>
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
 <div align = "center"> 
- <b> Caltech101-7, Reuters_dim10, Scene_15, prokaryotic, proteinFold, WebKB, ACM, BBC4view, OutdoorScene, yale</b>
+ <b> Reuters_dim10, Scene_15, prokaryotic, proteinFold, WebKB, ACM, BBC4view, OutdoorScene, yale</b>
 </div>
  
 <br>
@@ -94,6 +95,13 @@ Avian features, comprising cross-modal data of both images and text.
 ### synthetic3d
 Refer to the paper [DFL-NET](#DFL-NET) and the corresponding open-source repository [2025-TKDE-DFLNET](https://github.com/chenzhe207/DFL-NET).
 
+### Caltech101-7
+Caltech101-7 is a subset of the Caltech101 dataset, consisting of multi-view representations of image data derived through various feature engineering techniques. These views include HOG, GIST, LBP, Gabor, CENTRIST, and WM features.
+
+### Reuters_dim10
+The dataset comprises five languages—English, French, German, Spanish, and Italian—treated as distinct views, with each view reduced to a 10-dimensional representation through feature engineering. Refer to the paper [DDMVC](#DDMVC) and the corresponding open-source repository [2025-PR-DDMVC](https://github.com/xujunpeng832/DDMVC)).
+ 
+
 ## Reference
 ### DCP 
 @article{lin2022dual,
@@ -115,5 +123,15 @@ Refer to the paper [DFL-NET](#DFL-NET) and the corresponding open-source reposit
   publisher={IEEE}
 }
 
+### DDMVC
+@article{xu2025deep,
+  title={Deep multi-view clustering with diverse and discriminative feature learning},
+  author={Xu, Junpeng and Meng, Min and Liu, Jigang and Wu, Jigang},
+  journal={Pattern Recognition},
+  volume={161},
+  pages={111322},
+  year={2025},
+  publisher={Elsevier}
+}
 
 
