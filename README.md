@@ -39,12 +39,11 @@ In representation learning fields such as multi-view clustering, researchers ten
 |Caltech101-all|9144|5|102|[Caltech101-all](#Caltech101-all)|
 |NUSWIDEOBJ|30000|5|31|[NUSWIDEOBJ](#NUSWIDEOBJ)|
 |YoutubeFace_sel|101499|5|31|[YoutubeFace_sel](#YoutubeFace_sel)|
-
 </div>
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
 <div align = "center">  
- <b>Large-scale datasets are available on the cloud drive. Update   Caltech102, CIFAR100, Fashion, MNIST_USPS, NUS_WIDE, nuswide_deep_2, , ORL, STL10_fea</b> 
+ <b>Large-scale datasets are available on the cloud drive. Update   Caltech102, CIFAR100, Fashion, MNIST_USPS, NUS_WIDE, nuswide_deep_2, ORL, STL10_fea</b> 
 </div> 
 <br>
  
@@ -160,7 +159,7 @@ It is a subset of the Caltech dataset, as referenced in [FPMVS-CAG](FPMVS-CAG)
 The image data includes various feature descriptors, such as Color Histogram (CH), Color Moments (CM), Color Correllogram (CORR), Edge Direction Histogram (EDH), and Wavelet Texture (WT). For further details, please refer to: [FPMVS-CAG](FPMVS-CAG)
 
 ### YoutubeFace_sel
-
+An image feature-based multi-view dataset, which can be referred to in: [FPMVS-CAG](FPMVS-CAG)
 
 
 
