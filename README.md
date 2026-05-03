@@ -1,4 +1,4 @@
-# Multi-view-Datasets (Comming soon)
+<img width="1231" height="191" alt="image" src="https://github.com/user-attachments/assets/470b0548-2dc2-4b7f-8cd1-ffedbabc3290" /># Multi-view-Datasets (Comming soon)
 
 In representation learning fields such as multi-view clustering, researchers tend to focus more on algorithms within the feature space, predominantly utilizing public datasets. This offers considerable convenience, as obtaining public datasets is generally free from strict copyright restrictions, sparing us the arduous task of dataset construction. However, existing repositories fail to provide a comprehensive and unified public dataset library specifically dedicated to the field of multi-view representation learning. Therefore, I aim to systematically organize and compile the multi-view datasets I have collected throughout my research process.
 
@@ -31,11 +31,20 @@ In representation learning fields such as multi-view clustering, researchers ten
 |ACM|3025|5|3|[ACM](#ACM)|
 |OutdoorScene|2688|4|8|[OutdoorScene](#OutdoorScene)|
 |yale|165|3|15|[yale](#yale)|
+|ALOI_1K|110250|4|1000|[ALOI_1K](#ALOI_1K)|
+|ALOI_100|10800|4|100|-|
+|Animal|11673|4|20|[Animal](#Animal)|
+|AwAfea|30475|6|50|[AwAfea](#AwAfea)|
+|Caltech101-20|2386|6|20|[Caltech101-20](#Caltech101-20)|
+|Caltech101-all|9144|5|102|[Caltech101-all](#Caltech101-all)|
+|NUSWIDEOBJ|30000|5|31|[NUSWIDEOBJ](#NUSWIDEOBJ)|
+|YoutubeFace_sel|101499|5|31|[YoutubeFace_sel](#YoutubeFace_sel)|
+
 </div>
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
 <div align = "center">  
- <b>Large-scale datasets are available on the cloud drive. Update ALOI_1K, Animal, AwAfea, Caltech101-20, Caltech101-all, Caltech102, CIFAR10, CIFAR100, Fashion, MNIST_USPS, NUS_WIDE, nuswide_deep_2, NUSWIDEOBJ, ORL, STL10_fea</b> 
+ <b>Large-scale datasets are available on the cloud drive. Update   Caltech102, CIFAR100, Fashion, MNIST_USPS, NUS_WIDE, nuswide_deep_2, , ORL, STL10_fea</b> 
 </div> 
 <br>
  
@@ -131,6 +140,30 @@ This dataset uses images processed by different feature engineering techniques a
 The image features extracted for this dataset include Intensity, LBP, and Gabor features. For details, please refer to the paper: [CSMCS](#CSMCS)
 
 
+### ALOI_1K
+The dataset consists of multi-view features extracted from image data via computer graphics or feature engineering. For the large-scale version, please refer to the cloud drive link: [Drive_link](#my-anchor)
+
+### Animal
+The dataset consists of image data. [Drive_link](#my-anchor)
+
+
+### AwAfea
+The feature-extracted version of the Animal dataset.[Drive_link](#my-anchor)
+
+### Caltech101-20
+Refer to [LandUse_21](#LandUse_21)
+
+### Caltech101-all
+It is a subset of the Caltech dataset, as referenced in [FPMVS-CAG](FPMVS-CAG)
+
+### NUSWIDEOBJ
+The image data includes various feature descriptors, such as Color Histogram (CH), Color Moments (CM), Color Correllogram (CORR), Edge Direction Histogram (EDH), and Wavelet Texture (WT). For further details, please refer to: [FPMVS-CAG](FPMVS-CAG)
+
+### YoutubeFace_sel
+
+
+
+
 ## Reference
 ### DCP 
 @article{lin2022dual,
@@ -201,4 +234,18 @@ The image features extracted for this dataset include Intensity, LBP, and Gabor 
   number={1},
   year={2018}
 }
+
+### FPMVS-CAG
+@article{wang2021fast,
+  title={Fast parameter-free multi-view subspace clustering with consensus anchor guidance},
+  author={Wang, Siwei and Liu, Xinwang and Zhu, Xinzhong and Zhang, Pei and Zhang, Yi and Gao, Feng and Zhu, En},
+  journal={IEEE Transactions on Image Processing},
+  volume={31},
+  pages={556--568},
+  year={2021},
+  publisher={IEEE}
+}
+
+
+
 
