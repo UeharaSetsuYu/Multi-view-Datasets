@@ -29,13 +29,12 @@ In representation learning fields such as multi-view clustering, researchers ten
 |ACM|3025|5|3|[ACM](#ACM)|
 |OutdoorScene|2688|3|8|[OutdoorScene](#OutdoorScene)|
 |ACM|3025|5|3|[ACM](#ACM)|
-|OutdoorScene|2688|4|8|[OutdoorScene](OutdoorScene)|
-|yale||||
+|OutdoorScene|2688|4|8|[OutdoorScene](#OutdoorScene)|
+|yale|165|3|15|[yale](#yale)|
 </div>
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
-<div align = "center"> 
- <b>  BBC4view, OutdoorScene, yale</b>
+<div align = "center">  
  <b>Large-scale datasets are available on the cloud drive. Update ALOI_1K, Animal, AwAfea, Caltech101-20, Caltech101-all, Caltech102, CIFAR10, CIFAR100, Fashion, MNIST_USPS, NUS_WIDE, nuswide_deep_2, NUSWIDEOBJ, ORL, STL10_fea</b> 
 </div> 
 <br>
@@ -128,6 +127,10 @@ This dataset consists of research paper data from a database, featuring both a t
 ### OutdoorScene
 This dataset uses images processed by different feature engineering techniques as distinct views, including GIST, HOG, LBP, and Gabor features. For details, please refer to the paper: [Mask-IMvC](#Mask-IMvC). 
 
+### yale
+The image features extracted for this dataset include Intensity, LBP, and Gabor features. For details, please refer to the paper: [CSMCS](#CSMCS)
+
+
 ## Reference
 ### DCP 
 @article{lin2022dual,
@@ -189,4 +192,13 @@ This dataset uses images processed by different feature engineering techniques a
   publisher={IEEE}
 }
 
+### CSMCS
+@inproceedings{luo2018consistent,
+  title={Consistent and specific multi-view subspace clustering},
+  author={Luo, Shirui and Zhang, Changqing and Zhang, Wei and Cao, Xiaochun},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={32},
+  number={1},
+  year={2018}
+}
 
