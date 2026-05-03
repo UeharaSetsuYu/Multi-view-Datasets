@@ -1,4 +1,4 @@
-# Multi-view-Datasets (Comming soon)
+<img width="486" height="285" alt="image" src="https://github.com/user-attachments/assets/6b9bf01f-5eee-4d3a-afe1-95010eb876a5" /># Multi-view-Datasets (Comming soon)
 
 In representation learning fields such as multi-view clustering, researchers tend to focus more on algorithms within the feature space, predominantly utilizing public datasets. This offers considerable convenience, as obtaining public datasets is generally free from strict copyright restrictions, sparing us the arduous task of dataset construction. However, existing repositories fail to provide a comprehensive and unified public dataset library specifically dedicated to the field of multi-view representation learning. Therefore, I aim to systematically organize and compile the multi-view datasets I have collected throughout my research process.
 
@@ -28,11 +28,14 @@ In representation learning fields such as multi-view clustering, researchers ten
 |WebKB|1051|2|2|[WebKB](#WebKB)|
 |ACM|3025|5|3|[ACM](#ACM)|
 |OutdoorScene|2688|3|8|[OutdoorScene](#OutdoorScene)|
+|ACM|3025|5|3|[ACM](#ACM)|
+|OutdoorScene|2688|4|8|[OutdoorScene](OutdoorScene)|
+|yale||||
 </div>
 
 <img src="./img/megaphone.png" alt="icon" width="20" /> <b> Update Datasets (Apr.29.2026) </b>
 <div align = "center"> 
- <b>   ACM, BBC4view, OutdoorScene, yale</b>
+ <b>  BBC4view, OutdoorScene, yale</b>
  <b>Large-scale datasets are available on the cloud drive. Update ALOI_1K, Animal, AwAfea, Caltech101-20, Caltech101-all, Caltech102, CIFAR10, CIFAR100, Fashion, MNIST_USPS, NUS_WIDE, nuswide_deep_2, NUSWIDEOBJ, ORL, STL10_fea</b> 
 </div> 
 <br>
@@ -119,6 +122,11 @@ Refer to the paper [MVC-LFA](#MVC-LFA)
 ### WebKB
 It primarily comprises two views: the sparse text of the webpage content and the inbound anchor text.
 
+### ACM
+This dataset consists of research paper data from a database, featuring both a text feature view and a graph node view. For further details, please refer to the following paper: [OMC-DVM](OMC-DVM)
+
+### OutdoorScene
+This dataset uses images processed by different feature engineering techniques as distinct views, including GIST, HOG, LBP, and Gabor features. For details, please refer to the paper: [Mask-IMvC](#Mask-IMvC). 
 
 ## Reference
 ### DCP 
@@ -160,4 +168,25 @@ It primarily comprises two views: the sparse text of the webpage content and the
   pages={3778--3784},
   year={2019}
 }
+
+### OMC-DVM
+@inproceedings{zhu2026online,
+  title={Online Multi-Relational Clustering with Dominant View Mining},
+  author={Zhu, Zhengzhong and Zhou, Pei and Wang, Dongsheng and Cheng, Li and Zhu, Jiangping},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={34},
+  pages={29232--29240},
+  year={2026}
+}
+
+### Mask-IMvC
+@article{li2025mask,
+  title={Mask-informed deep contrastive incomplete multi-view clustering},
+  author={Li, Zhenglai and Shi, Yuqi and He, Xiao and Tang, Chang},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2025},
+  publisher={IEEE}
+}
+
 
